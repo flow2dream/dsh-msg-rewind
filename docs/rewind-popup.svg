@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2430"/>
+      <stop offset="1" stop-color="#161b26"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="560" rx="12" fill="url(#bg)"/>
+
+  <!-- 对话窗口标题 -->
+  <text x="28" y="36" fill="#e8ecf4" font-size="15" font-weight="600">对话 · 会话标题</text>
+  <line x1="28" y1="50" x2="692" y2="50" stroke="#2c3446" stroke-width="1"/>
+
+  <!-- 对话内容（历史） -->
+  <g font-size="13">
+    <text x="560" y="84" fill="#4a5568" text-anchor="end">用户消息一（较早）</text>
+    <rect x="470" y="94" width="200" height="30" rx="12" fill="#3b4a63"/>
+    <text x="490" y="114" fill="#c6d0e0">这是第一条用户消息的内容</text>
+
+    <text x="560" y="158" fill="#4a5568" text-anchor="end">用户消息二</text>
+    <rect x="470" y="168" width="200" height="30" rx="12" fill="#3b4a63"/>
+    <text x="490" y="188" fill="#c6d0e0">这是第二条用户消息的内容</text>
+
+    <text x="560" y="232" fill="#4a5568" text-anchor="end">用户消息三（最新）</text>
+    <rect x="470" y="242" width="200" height="30" rx="12" fill="#2f6fed"/>
+    <text x="490" y="262" fill="#ffffff">这是最新一条用户消息</text>
+  </g>
+
+  <!-- /rewind 弹窗 -->
+  <g>
+    <rect x="300" y="300" width="392" height="228" rx="10" fill="#0f1420" stroke="#39425a" stroke-width="1"/>
+    <rect x="318" y="318" width="356" height="30" rx="6" fill="#1b2334"/>
+    <text x="332" y="338" fill="#5a6a78" font-size="12">搜索…</text>
+
+    <g font-size="13">
+      <rect x="318" y="358" width="356" height="34" rx="6" fill="#2f6fed"/>
+      <text x="334" y="380" fill="#ffffff">最新：用户消息三</text>
+      <text x="650" y="380" fill="#8fa3c8" font-size="11" text-anchor="end">seq=12</text>
+
+      <rect x="318" y="396" width="356" height="34" rx="6" fill="transparent"/>
+      <text x="334" y="418" fill="#c6d0e0">用户消息二</text>
+      <text x="650" y="418" fill="#5a6a80" font-size="11" text-anchor="end">seq=9</text>
+
+      <rect x="318" y="434" width="356" height="34" rx="6" fill="transparent"/>
+      <text x="334" y="456" fill="#c6d0e0">用户消息一（较早）</text>
+      <text x="650" y="456" fill="#5a6a80" font-size="11" text-anchor="end">seq=5</text>
+
+      <rect x="318" y="472" width="356" height="34" rx="6" fill="transparent"/>
+      <text x="334" y="494" fill="#c6d0e0">第一条用户消息</text>
+      <text x="650" y="494" fill="#5a6a80" font-size="11" text-anchor="end">seq=1</text>
+    </g>
+  </g>
+
+  <text x="30" y="540" fill="#5a6a80" font-size="12">输入 /rewind 弹出选择框：按时间正序列出全部用户消息，默认选中最新一条（上一轮对话）</text>
+</svg>

@@ -10,6 +10,14 @@ Conversation rewind commands for [DeepSeek Harness](https://github.com/deepseek-
 
 Both the model context **and** the visible transcript are truncated, and the durable JSONL artifact is rewritten so the cut survives a restart.
 
+## Screenshots
+
+![rewind dialog](docs/rewind-popup.svg)
+
+![hover undo button](docs/user-hover-button.svg)
+
+*Illustrative SVG mockups — see [docs/](docs/) for real-screenshot guidance.*
+
 ## Features
 
 | Capability | Detail |
