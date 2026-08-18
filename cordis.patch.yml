@@ -1,6 +1,6 @@
-# dsh-chat-rewind bundle patch: one host row (the node half registers the
+# dsh-msg-rewind bundle patch: one host row (the node half registers the
 # /undo and /rewind commands; the browser half in exports "./client" listens
 # for the host-pushed session/rewind event and resyncs the conversation).
 - insert:
     - id: chat-rewind
-      name: dsh-chat-rewind
+      name: dsh-msg-rewind

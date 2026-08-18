@@ -1,4 +1,4 @@
-# dsh-chat-rewind
+# dsh-msg-rewind
 
 **English** | [中文](README.zh.md)
 
@@ -31,8 +31,8 @@ Both the model context **and** the visible transcript are truncated, and the dur
 ### Via dshmarket (recommended)
 
 ```bash
-dsh market add dsh-chat-rewind
-dsh market enable dsh-chat-rewind
+dsh market add dsh-msg-rewind
+dsh market enable dsh-msg-rewind
 ```
 
 ### Manual (file install)
@@ -43,11 +43,11 @@ Add the dependency and bundle to your web profile:
 // ~/.dsh/profiles/web/package.json
 {
   "dependencies": {
-    "dsh-chat-rewind": "github:flow2dream/dsh-msg-rewind"
+    "dsh-msg-rewind": "github:flow2dream/dsh-msg-rewind"
   },
   "dsh": {
     "profile": {
-      "bundles": ["dsh-chat-rewind"]
+      "bundles": ["dsh-msg-rewind"]
     }
   }
 }
@@ -81,7 +81,7 @@ The rewind target is the real user message (system injections such as runtime-co
 
 ```bash
 # from your web profile
-npm install /path/to/dsh-chat-rewind
+npm install /path/to/dsh-msg-rewind
 ```
 
 Source lives in `lib/`:

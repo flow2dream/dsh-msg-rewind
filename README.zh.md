@@ -1,4 +1,4 @@
-# dsh-chat-rewind
+# dsh-msg-rewind
 
 [English](README.md) | **中文**
 
@@ -31,8 +31,8 @@
 ### 通过 dshmarket 安装（推荐）
 
 ```bash
-dsh market add dsh-chat-rewind
-dsh market enable dsh-chat-rewind
+dsh market add dsh-msg-rewind
+dsh market enable dsh-msg-rewind
 ```
 
 ### 手动安装（file / GitHub 依赖）
@@ -43,11 +43,11 @@ dsh market enable dsh-chat-rewind
 // ~/.dsh/profiles/web/package.json
 {
   "dependencies": {
-    "dsh-chat-rewind": "github:flow2dream/dsh-msg-rewind"
+    "dsh-msg-rewind": "github:flow2dream/dsh-msg-rewind"
   },
   "dsh": {
     "profile": {
-      "bundles": ["dsh-chat-rewind"]
+      "bundles": ["dsh-msg-rewind"]
     }
   }
 }
@@ -81,7 +81,7 @@ dsh web
 
 ```bash
 # 在 web profile 目录下
-npm install /path/to/dsh-chat-rewind
+npm install /path/to/dsh-msg-rewind
 ```
 
 源码位于 `lib/`：

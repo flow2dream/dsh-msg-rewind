@@ -1,5 +1,5 @@
 {
-  "name": "dsh-chat-rewind",
+  "name": "dsh-msg-rewind",
   "description": "Conversation rewind commands for DeepSeek Harness web: /undo rolls the chat back one turn, /rewind <seq> cuts the conversation back to a chosen message (both the model context and the transcript, durably persisted). Host half truncates the live session log and rewrites the JSONL artifact; browser half resyncs the conversation window on a host-pushed session/rewind event.",
   "version": "0.1.0",
   "type": "module",
