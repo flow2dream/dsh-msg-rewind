@@ -40,14 +40,19 @@
 
 ## 安装
 
-### 通过 dshmarket 安装（推荐）
+### 通过 dsh plugin 安装（推荐）
 
 ```bash
-dsh market add dsh-msg-rewind
-dsh market enable dsh-msg-rewind
+dsh plugin --profile web add dsh-msg-rewind@github:flow2dream/dsh-msg-rewind
 ```
 
-### 手动安装（file / GitHub 依赖）
+然后重启 web profile：
+
+```bash
+dsh web
+```
+
+### 手动安装（GitHub 依赖）
 
 在 web profile 中添加依赖与 bundle：
 
@@ -69,7 +74,7 @@ dsh market enable dsh-msg-rewind
 
 ```bash
 cd ~/.dsh/profiles/web
-npm install
+pnpm install
 dsh web
 ```
 
