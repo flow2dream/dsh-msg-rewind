@@ -1,0 +1,37 @@
+{
+  "name": "dsh-chat-rewind",
+  "description": "Conversation rewind commands for DeepSeek Harness web: /undo rolls the chat back one turn, /rewind <seq> cuts the conversation back to a chosen message (both the model context and the transcript, durably persisted). Host half truncates the live session log and rewrites the JSONL artifact; browser half resyncs the conversation window on a host-pushed session/rewind event.",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-commands"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-session": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-ui-commands": "^0.1.0"
+  },
+  "files": [
+    "lib/*.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}
