@@ -1,5 +1,7 @@
 # dsh-msg-rewind
 
+**中文** | [English ↓](#dsh-msg-rewind-english)
+
 为 [DeepSeek Harness](https://github.com/deepseek-ai/dsh) Web 版提供的对话回退命令。
 
 - `/undo` — 回退上一轮对话（删除最后一条真实用户消息及其后的所有内容）
