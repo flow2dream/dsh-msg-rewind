@@ -12,11 +12,15 @@ Both the model context **and** the visible transcript are truncated, and the dur
 
 ## Screenshots
 
-![rewind dialog](docs/rewind-popup.svg)
+![rewind](docs/rewind.png)
 
-![hover undo button](docs/user-hover-button.svg)
+![rewind dialog](docs/rewind_dialog.png)
 
-*Illustrative SVG mockups — see [docs/](docs/) for real-screenshot guidance.*
+![rewind logo](docs/rewind_logo.png)
+
+![undo](docs/undo.png)
+
+*Real screenshots from dsh web.*
 
 ## Features
 

@@ -12,11 +12,15 @@
 
 ## 展示效果
 
-![回退选择框](docs/rewind-popup.svg)
+![回退](docs/rewind.png)
 
-![悬浮撤回按钮](docs/user-hover-button.svg)
+![回退对话框](docs/rewind_dialog.png)
 
-*图为 SVG 界面示意，真实截图指引见 [docs/](docs/)。*
+![撤回按钮](docs/rewind_logo.png)
+
+![撤销](docs/undo.png)
+
+*均为 dsh web 真实运行截图。*
 
 ## 功能特性
 
