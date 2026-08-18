@@ -40,7 +40,19 @@ Both the model context **and** the visible transcript are truncated, and the dur
 
 ## Install
 
-### Via dsh plugin (recommended)
+### Via npm (recommended)
+
+```bash
+dsh plugin --profile web add @flow2dream/dsh-msg-rewind@0.1.0
+```
+
+Then restart the web profile:
+
+```bash
+dsh web
+```
+
+### Via GitHub
 
 ```bash
 dsh plugin --profile web add dsh-msg-rewind@github:flow2dream/dsh-msg-rewind
@@ -60,11 +72,11 @@ Add the dependency and bundle to your web profile:
 // ~/.dsh/profiles/web/package.json
 {
   "dependencies": {
-    "dsh-msg-rewind": "github:flow2dream/dsh-msg-rewind"
+    "@flow2dream/dsh-msg-rewind": "0.1.0"
   },
   "dsh": {
     "profile": {
-      "bundles": ["dsh-msg-rewind"]
+      "bundles": ["@flow2dream/dsh-msg-rewind"]
     }
   }
 }

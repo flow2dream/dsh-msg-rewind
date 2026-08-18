@@ -3,4 +3,4 @@
 # for the host-pushed session/rewind event and resyncs the conversation).
 - insert:
     - id: chat-rewind
-      name: dsh-msg-rewind
+      name: '@flow2dream/dsh-msg-rewind'

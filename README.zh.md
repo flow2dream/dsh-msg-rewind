@@ -40,7 +40,19 @@
 
 ## 安装
 
-### 通过 dsh plugin 安装（推荐）
+### 通过 npm 安装（推荐）
+
+```bash
+dsh plugin --profile web add @flow2dream/dsh-msg-rewind@0.1.0
+```
+
+然后重启 web profile：
+
+```bash
+dsh web
+```
+
+### 通过 GitHub 安装
 
 ```bash
 dsh plugin --profile web add dsh-msg-rewind@github:flow2dream/dsh-msg-rewind
@@ -52,7 +64,7 @@ dsh plugin --profile web add dsh-msg-rewind@github:flow2dream/dsh-msg-rewind
 dsh web
 ```
 
-### 手动安装（GitHub 依赖）
+### 手动安装
 
 在 web profile 中添加依赖与 bundle：
 
@@ -60,11 +72,11 @@ dsh web
 // ~/.dsh/profiles/web/package.json
 {
   "dependencies": {
-    "dsh-msg-rewind": "github:flow2dream/dsh-msg-rewind"
+    "@flow2dream/dsh-msg-rewind": "0.1.0"
   },
   "dsh": {
     "profile": {
-      "bundles": ["dsh-msg-rewind"]
+      "bundles": ["@flow2dream/dsh-msg-rewind"]
     }
   }
 }
