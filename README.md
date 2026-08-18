@@ -1,5 +1,7 @@
 # dsh-chat-rewind
 
+**English** | [中文](README.zh.md)
+
 Conversation rewind commands for [DeepSeek Harness](https://github.com/deepseek-ai/dsh) web.
 
 - `/undo` — roll the chat back one full turn (drop the last real user message and everything after it)

@@ -31,7 +31,8 @@
   "files": [
     "lib/*.js",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "README.zh.md"
   ],
   "license": "MIT"
 }
