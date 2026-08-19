@@ -12,13 +12,13 @@
 
 ## 展示效果
 
-![回退](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind.png)
+![回退](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind.jpg)
 
-![回退对话框](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_dialog.png)
+![回退对话框](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_dialog.jpg)
 
-![撤回按钮](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_logo.png)
+![撤回按钮](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_logo.jpg)
 
-![撤销](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/undo.png)
+![撤销](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/undo.jpg)
 
 *均为 dsh web 真实运行截图。*
 

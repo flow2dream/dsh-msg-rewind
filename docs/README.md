@@ -6,10 +6,10 @@
 
 | 文件 | 内容 |
 | --- | --- |
-| `rewind.png` | `/rewind` 选择对话框效果 |
-| `rewind_dialog.png` | `/rewind` 对话框细节 |
-| `rewind_logo.png` | 撤回按钮 / logo 特写 |
-| `undo.png` | `/undo` 回退效果 |
+| `rewind.jpg` | `/rewind` 选择对话框效果 |
+| `rewind_dialog.jpg` | `/rewind` 对话框细节 |
+| `rewind_logo.jpg` | 撤回按钮 / logo 特写 |
+| `undo.jpg` | `/undo` 回退效果 |
 
 ## 补充截图
 

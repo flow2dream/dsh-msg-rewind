@@ -12,13 +12,13 @@ Both the model context **and** the visible transcript are truncated, and the dur
 
 ## Screenshots
 
-![rewind](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind.png)
+![rewind](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind.jpg)
 
-![rewind dialog](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_dialog.png)
+![rewind dialog](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_dialog.jpg)
 
-![rewind logo](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_logo.png)
+![rewind logo](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/rewind_logo.jpg)
 
-![undo](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/undo.png)
+![undo](https://raw.githubusercontent.com/flow2dream/dsh-msg-rewind/main/docs/undo.jpg)
 
 *Real screenshots from dsh web.*
 
